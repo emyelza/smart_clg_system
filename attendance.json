@@ -1,0 +1,152 @@
+{
+  "S01": {
+    "attended": 1212,
+    "total": 1391,
+    "pct": 87.1
+  },
+  "S02": {
+    "attended": 1177,
+    "total": 1391,
+    "pct": 84.6
+  },
+  "S03": {
+    "attended": 1185,
+    "total": 1391,
+    "pct": 85.2
+  },
+  "S04": {
+    "attended": 1170,
+    "total": 1391,
+    "pct": 84.1
+  },
+  "S05": {
+    "attended": 1199,
+    "total": 1391,
+    "pct": 86.2
+  },
+  "S06": {
+    "attended": 1175,
+    "total": 1391,
+    "pct": 84.5
+  },
+  "S07": {
+    "attended": 1183,
+    "total": 1391,
+    "pct": 85.0
+  },
+  "S08": {
+    "attended": 1201,
+    "total": 1391,
+    "pct": 86.3
+  },
+  "S09": {
+    "attended": 1204,
+    "total": 1391,
+    "pct": 86.6
+  },
+  "S10": {
+    "attended": 1172,
+    "total": 1391,
+    "pct": 84.3
+  },
+  "S11": {
+    "attended": 1171,
+    "total": 1391,
+    "pct": 84.2
+  },
+  "S12": {
+    "attended": 1160,
+    "total": 1391,
+    "pct": 83.4
+  },
+  "S13": {
+    "attended": 1197,
+    "total": 1391,
+    "pct": 86.1
+  },
+  "S14": {
+    "attended": 1192,
+    "total": 1391,
+    "pct": 85.7
+  },
+  "S15": {
+    "attended": 1187,
+    "total": 1391,
+    "pct": 85.3
+  },
+  "S16": {
+    "attended": 1191,
+    "total": 1391,
+    "pct": 85.6
+  },
+  "S17": {
+    "attended": 1192,
+    "total": 1391,
+    "pct": 85.7
+  },
+  "S18": {
+    "attended": 1188,
+    "total": 1391,
+    "pct": 85.4
+  },
+  "S19": {
+    "attended": 1181,
+    "total": 1391,
+    "pct": 84.9
+  },
+  "S20": {
+    "attended": 1176,
+    "total": 1391,
+    "pct": 84.5
+  },
+  "S21": {
+    "attended": 1196,
+    "total": 1391,
+    "pct": 86.0
+  },
+  "S22": {
+    "attended": 1184,
+    "total": 1391,
+    "pct": 85.1
+  },
+  "S23": {
+    "attended": 1201,
+    "total": 1391,
+    "pct": 86.3
+  },
+  "S24": {
+    "attended": 1182,
+    "total": 1391,
+    "pct": 85.0
+  },
+  "S25": {
+    "attended": 1153,
+    "total": 1391,
+    "pct": 82.9
+  },
+  "S26": {
+    "attended": 1174,
+    "total": 1391,
+    "pct": 84.4
+  },
+  "S27": {
+    "attended": 1191,
+    "total": 1391,
+    "pct": 85.6
+  },
+  "S28": {
+    "attended": 1156,
+    "total": 1391,
+    "pct": 83.1
+  },
+  "S29": {
+    "attended": 1180,
+    "total": 1391,
+    "pct": 84.8
+  },
+  "S30": {
+    "attended": 1189,
+    "total": 1391,
+    "pct": 85.5
+  }
+}

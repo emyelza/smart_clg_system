@@ -1,0 +1,9 @@
+{
+  "time": "10:00-11:00",
+  "class": "DBMS",
+  "room": "Block B - 204",
+  "teacher": "Dr. Rao",
+  "class_status": "ONGOING",
+  "students_present": 27,
+  "total_students": 30
+}
