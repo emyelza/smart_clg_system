@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart College Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar / Navigation -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>🎓 ClgTrack</h2>
+            </div>
+            <div class="nav-links">
+                <button class="nav-btn" onclick="showSection('student')">👨‍🎓 Student</button>
+                <button class="nav-btn" onclick="showSection('teacher')">👩‍🏫 Teacher</button>
+                <button class="nav-btn active" onclick="showSection('admin')">👮 Admin</button>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+
+            <!-- Student Section -->
+            <section id="student-section" class="hidden-section">
+                <header>
+                    <h1>Student Portal</h1>
+                    <p>Track your academic status in real-time.</p>
+                </header>
+
+                <div class="glass-card control-panel">
+                    <label>Select Student ID</label>
+                    <select id="student-id-select">
+                        <!-- Populated by JS -->
+                    </select>
+                </div>
+
+                <div class="grid-container">
+                    <div class="glass-card action-card">
+                        <h3>Where is my class?</h3>
+                        <div id="class-info" class="result-box">
+                            <span class="placeholder">Select ID & Check</span>
+                        </div>
+                        <button class="action-btn" onclick="checkClassLocation()">Check Location</button>
+                    </div>
+
+                    <div class="glass-card action-card">
+                        <h3>My Attendance</h3>
+                        <div id="attendance-info" class="result-box">
+                            <span class="placeholder">--%</span>
+                        </div>
+                        <button class="action-btn" onclick="checkAttendance()">Check Attendance</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Teacher Section (NEW) -->
+            <section id="teacher-section" class="hidden-section">
+                <header>
+                    <h1>Teacher Portal</h1>
+                    <p>Locate faculty members in real-time.</p>
+                </header>
+
+                <div class="glass-card control-panel">
+                    <label>Select Faculty Member</label>
+                    <select id="teacher-select">
+                        <!-- Populated by JS -->
+                    </select>
+                </div>
+
+                <div class="glass-card action-card">
+                    <h3>Current Location</h3>
+                    <div id="teacher-location-box" class="result-box">
+                        <span class="placeholder">Select Faculty & Locate</span>
+                    </div>
+                    <button class="action-btn" onclick="locateTeacher()">Locate Faculty</button>
+                </div>
+            </section>
+
+            <!-- Admin Section -->
+            <section id="admin-section" class="active-section">
+                <header>
+                    <h1>Admin Dashboard</h1>
+                    <p>AI-Powered Campus Monitoring</p>
+                </header>
+
+                <!-- Live Dashboard -->
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <h4>Current Class</h4>
+                        <h2 id="live-class">--</h2>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Status</h4>
+                        <h2 id="live-status">--</h2>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Present / Total</h4>
+                        <h2 id="live-count">--</h2>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Avg Attendance</h4>
+                        <h2 id="live-pct">--%</h2>
+                    </div>
+                </div>
+
+                <!-- AI Chatbot -->
+                <div class="glass-card chat-interface">
+                    <div class="chat-header">
+                        <h3>🤖 Admin AI Assistant</h3>
+                    </div>
+                    <div class="chat-history" id="chat-history">
+                        <div class="chat-msg ai">Hello! Ask me about attendance or class status.</div>
+                    </div>
+                    <div class="chat-input-area">
+                        <input type="text" id="chat-input"
+                            placeholder="Type a question (e.g., 'Who has low attendance?')...">
+                        <button class="send-btn" onclick="sendMessage()">➤</button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
